@@ -4,7 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="GitHub Download Accelerate">
+    <meta name="Keywords" content="Github,Download,Boost,Accelerate,下载，加速，国内">
+    <meta property="og:site_name" content="GitHub Download">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dl.neuq.de">
+    <meta property="og:title" content="GitHub Download">
+    <meta property="og:description" content="GitHub Download Accelerate">
+    <meta property="og:image" content="https://dl.neuq.de/favicon.png">
+    <meta property="og:locale" content="en_US">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
     <script>
         function toSubmit(e) {
             e.preventDefault()
@@ -12,6 +22,8 @@
             return false
         }
     </script>
+	<script src="./jquery.min.js"></script>
+	<script src="./bootstrap.min.js"></script>
     <title>GitHub Download</title>
 </head>
 <body class="flex">
@@ -24,6 +36,21 @@
     </label>
     <input class="block btn" type="submit" value="Download">
 </form>
-</p>
+<div class="panel-group" id="accordion">
+    <p>
+        <button class="tips" type="button" data-toggle="collapse" data-target="#examples" aria-expanded="false" aria-controls="examples">
+        <span class="desc">Valid&nbsp;&nbsp;Examples</span>
+        </button>
+    </p>
+    <div class="collapse" id="examples">
+        <div class="card card-body">
+            <div><span class="font">Source Code</span> : <a class="back" target="blank" href="https://dl.neuq.de/https://github.com/ytdl-org/youtube-dl/archive/master.zip">https://github.com/ytdl-org/youtube-dl/archive/master.zip</a></div>
+            <div><span class="font">Branch Files</span> : <a class="back" target="blank" href="https://dl.neuq.de/https://github.com/ytdl-org/youtube-dl/blob/master/setup.py">https://github.com/ytdl-org/youtube-dl/blob/master/setup.py</a></div>
+            <div><span class="font">Release Code</span> : <a class="back" target="blank" href="https://dl.neuq.de/https://github.com/ytdl-org/youtube-dl/archive/2021.03.03.zip">https://github.com/ytdl-org/youtube-dl/archive/2021.03.03.zip</a></div>
+            <div><span class="font">Release Assets</span> : <a class="back" target="blank" href="https://dl.neuq.de/https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.03/youtube-dl.exe">https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.03/youtube-dl.exe</a></div>
+            <div><span class="font">Commit Files</span> : <a class="back" target="blank" href="https://dl.neuq.de/https://github.com/ytdl-org/youtube-dl/blob/067aa17edf5a46a8cbc4d6b90864eddf051fa2bc/setup.py">https://github.com/ytdl-org/youtube-dl/blob/067aa17edf5a46a8cbc4d6b90864eddf051fa2bc/setup.py</a></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

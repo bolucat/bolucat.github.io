@@ -80,3 +80,42 @@ input:focus {
     width: 160px;
     margin: 30px 0;
 }
+
+.panel-group .desc {
+    position: relative;
+    text-align: center;
+}
+
+#accordion {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.tips {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c4a622;
+    width: 200px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #bfbfbf;
+}
+
+.font {
+    color: rgb(83, 126, 14);
+    font-weight: bold;
+}
+
+.back {
+    color: black;
+}
+
+.back:visited {
+    color: black;
+}
+
+.back:hover {
+    color: red;
+}
