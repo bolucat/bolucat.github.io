@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function toSubmit(e) {
+            e.preventDefault()
+            window.open('/' + document.getElementsByName('q')[0].value);
+            return false
+        }
+    </script>
+    <title>GitHub Download</title>
+</head>
+<body class="flex">
+<h1 style="margin-bottom: 50px"><img src="./favicon.png" style="width: 1.5em;margin-right: .2em;vertical-align: bottom;">GitHub Download Accelerate</h1>
+<form action="./" method="get" style="padding-bottom: 40px" target="_blank" class="flex" onsubmit="toSubmit(event)">
+    <label class="block" style="width: fit-content">
+        <input class="block url" name="q" type="text" placeholder="Please Input GitHub URLs"
+               pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|(raw\.githubusercontent\.com))\/.+$" required>
+        <div class="bar"></div>
+    </label>
+    <input class="block btn" type="submit" value="Download">
+</form>
+</p>
+</body>
+</html>
